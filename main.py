@@ -1,9 +1,5 @@
-"""
-Main entry point - Web Crawler + Gemini + English Learning
-Run: uv run main.py
-"""
+"""Main entry point for the Gemini English Learning desktop app."""
 import sys
-import os
 from pathlib import Path
 
 # Ensure project root is on path
@@ -13,7 +9,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 from PySide6.QtWidgets import QApplication
-from PySide6.QtCore import Qt, QTimer
+from PySide6.QtCore import QTimer
 from PySide6.QtGui import QIcon
 
 
@@ -22,7 +18,7 @@ APP_ICON_PATH = Path(__file__).resolve().parent / "assets" / "app_icon.ico"
 
 def main():
     app = QApplication(sys.argv)
-    app.setApplicationName("Web Crawler + Gemini AI")
+    app.setApplicationName("Gemini English Learning")
     app.setOrganizationName("EnglishLearning")
     app.setStyle("Fusion")
     if APP_ICON_PATH.exists():

@@ -1,1 +1,1 @@
-# Web Crawler + Gemini PySide6 App
+# Gemini English Learning PySide6 App

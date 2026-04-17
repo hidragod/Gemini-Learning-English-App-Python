@@ -1,5 +1,5 @@
 @echo off
-title Web Crawler + Gemini AI [DEBUG MODE]
+title Gemini English Learning [DEBUG MODE]
 cd /d "%~dp0"
 echo ==========================================
 echo   DEBUG MODE - Log se duoc luu vao file
@@ -16,5 +16,5 @@ type debug_log.txt
 echo.
 echo ==========================================
 echo Log da duoc luu tai: %~dp0debug_log.txt
-echo Hay copy noi dung file nay va gui cho Claude.
+echo Hay copy noi dung file nay va gui cho nguoi ho tro.
 pause

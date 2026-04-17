@@ -50,5 +50,4 @@ PythonProject/
 
 - `pyside6` - UI framework
 - `playwright` - browser automation cho Gemini Web
-- `mcp` - Model Context Protocol
 - `python-dotenv` - Environment variables

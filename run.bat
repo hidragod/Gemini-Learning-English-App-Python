@@ -1,6 +1,6 @@
 @echo off
-title Web Crawler + Gemini AI
+title Gemini English Learning
 cd /d "%~dp0"
-echo Starting Web Crawler + Gemini AI App...
+echo Starting Gemini English Learning App...
 uv run main.py
 pause
