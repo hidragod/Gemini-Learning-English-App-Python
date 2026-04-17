@@ -1,0 +1,23 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Local secrets
+.env
+
+# Personal browser/profile data
+chrome_profile/
+
+# Local app data and generated user content
+screenshots/
+debug_log.txt
+vocabulary_bank.json
+vocab_exports/
+src/english_learning_app/app.db
