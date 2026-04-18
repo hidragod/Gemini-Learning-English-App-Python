@@ -60,7 +60,6 @@ def get_web_job_status() -> str:
 
 
 def cancel_web_job() -> bool:
-    global _web_job_future
     future = _web_job_future
     if future is None:
         return False
